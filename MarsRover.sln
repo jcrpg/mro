@@ -15,6 +15,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarsRover.Library", "MarsRo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarsRover.Test", "MarsRover.Test\MarsRover.Test.csproj", "{9E62E284-F75F-4961-908C-1A3C7ACC81E7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation Layer", "Presentation Layer", "{1A6C2A1B-293A-4780-A737-8DFB46E7F140}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{9433496E-7260-4C1C-9796-D479E85D08C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application Domain", "Application Domain", "{DBA647AC-D199-40F6-85A7-7E2AF879B249}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing", "Testing", "{842A58E7-6D2E-4566-8C73-536DD81BECB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarsRover.Website", "MarsRover.Website\MarsRover.Website.csproj", "{070B0B26-4F6B-464E-9B9D-08334CC3E888}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,11 +51,19 @@ Global
 		{9E62E284-F75F-4961-908C-1A3C7ACC81E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E62E284-F75F-4961-908C-1A3C7ACC81E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E62E284-F75F-4961-908C-1A3C7ACC81E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{070B0B26-4F6B-464E-9B9D-08334CC3E888}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{070B0B26-4F6B-464E-9B9D-08334CC3E888}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{070B0B26-4F6B-464E-9B9D-08334CC3E888}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{070B0B26-4F6B-464E-9B9D-08334CC3E888}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{95075339-C88C-4C94-9806-EF72F50C4E10} = {9433496E-7260-4C1C-9796-D479E85D08C7}
+		{B0E0539D-4158-4E8A-A1E5-BB38F42F236B} = {DBA647AC-D199-40F6-85A7-7E2AF879B249}
 		{4A375881-03A0-4416-B4A4-00D5AE1A6387} = {810C095C-B5FB-4210-B6FD-4276EFFC9D36}
+		{9E62E284-F75F-4961-908C-1A3C7ACC81E7} = {842A58E7-6D2E-4566-8C73-536DD81BECB2}
+		{070B0B26-4F6B-464E-9B9D-08334CC3E888} = {1A6C2A1B-293A-4780-A737-8DFB46E7F140}
 	EndGlobalSection
 EndGlobal
